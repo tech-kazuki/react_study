@@ -1,9 +1,14 @@
 import React from 'react';
 
 function App() {
+  // const greeting = "React!!"
+  // const dom = <h1 className="hoge">{greeting}</h1>
   return (
-    <h1>Hello, world!</h1>
-  );
+  <React.Fragment>
+    <label htmlFor="foo">bar</label>
+    <input type="text" onChange={() => {console.log("Hello!")}} />
+    </React.Fragment>
+  )
 }
 
 export default App;
