@@ -22,7 +22,7 @@ const User = (props) => {
 }
 
 User.defaultProps = {
-  age: 1
+  age: 2
 }
 
 export default App; //Appを出力してね！
